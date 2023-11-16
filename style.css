@@ -1,24 +1,132 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-body{
+body {
     color: black;
     background-color: white;
     padding: 16px;
     font-family: 'Montserrat', sans-serif;
+    height: 100vh;
 }
 
-.container{
-    display: grid;
-    grid-template-columns: 25% 25% 25% 25%;
-    gap: 8px;
+a {
+    text-decoration: none;
+    color: rgb(0, 0, 183);
+    font-weight: 500;
 }
 
-p{
+p {
+    font-size: 13px;
+}
+
+h1 {
     font-size: 16px;
+    font-weight: bolder;
+}
+
+h5 {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+button {
+    background-color: burlywood;
+    padding: 4px 8px;
+    border-radius: 8px;
+    border: none;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 16px;
+    height: 90vh;
+    width: 340px;
+
+}
+
+.section-header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    font-size: 18px;
+}
+
+.category {
+    border-radius: 16px;
+    border: solid 2px #000;
+    padding: 16px;
+}
+
+.category div {
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+    align-items: center;
+    justify-content: center;
+}
+
+.category div i {
+    font-size: 24px;
+}
+
+.blue-border {
+    border: solid 2px #3498db;
+}
+
+.green-border {
+    border: solid 2px #2ecc71;
+}
+
+.grey-border {
+    border: solid 2px gray;
+}
+
+.purple-border {
+    border: solid 2px #9b59b6;
+}
+
+.yellow-border {
+    border: solid 2px #f1c40f;
+}
+
+.orange-border {
+    border: solid 2px #e67e22;
+}
+
+.red-border {
+    border: solid 2px #c0392b;
+}
+
+@media screen and (max-width: 450px) {
+    body {
+        height: none;
+    }
+
+    .container {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        gap: 16px;
+        width: 340px;
+        align-items: center;
+    }
+
+    footer div p {
+        display: none;
+    }
+
+    .category {
+        width: 340px;
+    }
+
 }
