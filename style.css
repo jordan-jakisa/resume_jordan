@@ -51,6 +51,8 @@ button {
     gap: 16px;
     height: 90vh;
     align-items: center;
+    gap: 16px;
+    width: 340px;
     }
 
 .container div{
