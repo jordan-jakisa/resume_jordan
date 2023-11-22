@@ -74,9 +74,10 @@ button {
 .category div {
     display: flex;
     flex-direction: row;
-    gap: 8px;
-    align-items: center;
+    gap: 0.5rem;
     justify-content: center;
+    align-items: center;
+    width: auto;
 }
 
 .category div i {
