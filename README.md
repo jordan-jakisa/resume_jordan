@@ -1,6 +1,6 @@
 # Welcome to my CV
 
-You can download the pdf version: [Jordan - Resume PDF ](https://githubusercontent.com/jordan-jakisa/resume-jordan/raw/master/assets/resume-jordan%2016-11-2023.pdf)
+You can download the pdf version: [Jordan - Resume PDF ](https://drive.google.com/file/d/15Vq7oHlvksaf4KijVCWmHFXeNnWT7QJu/view?usp=drive_link)
 
 Or view the online version: [Jordan - Online Resume](https://jordan-jakisa.github.io/resume-jordan/)
 
