@@ -121,7 +121,7 @@ button {
         display: flex;
         flex-wrap: wrap;
         gap: 16px;
-        width: 100%;
+        width: 100vw;
         align-items: center;
     }
 
